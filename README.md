@@ -34,9 +34,9 @@
 - Windows 10 (22H2)
 
 
-<h1>Scenario s</h1>
+<h1>Scenarios</h1>
 
-<h3>User Account Creation</h3>
+<h3>1)User Account Creation</h3>
 
 <h4>Background:</h4>
 
@@ -71,21 +71,16 @@
 
 - Communicate the login credentials and temporary password to John through a secure channel.
 - Document the date and time of account creation for auditing purposes.
-  
-<h4>Considerations:</h4>
 
-- The temporary password should meet the company's password policy requirements.
-- Ensure that John has the necessary permissions and group memberships to access the resources required for his role.
-
-<h3>&#9313; Password Reset </h3>
+<h3>2) Password Reset </h3>
 
 <h4>Background:</h4>
 
-<p> Sarah Thompson, a marketing executive, contacts the IT help desk reporting that she has forgotten her password and is unable to access her computer and email. The help desk needs to assist Sarah in resetting her password in Active Directory.</p>
+<p> Thomas Anderson, a marketing executive, contacts the IT help desk reporting that he has forgotten her password and is unable to access her computer and email. The help desk needs to assist Thomas in resetting his password in Active Directory.</p>
 
-<p><strong> Locate Sarah's user account and initiate a password reset.</strong></p>
+<p><strong> Locate Thomas' user account and initiate a password reset.</strong></p>
 
-<img width="383" alt="reset password" src="https://github.com/kirkgacias/ad-scenario-simulation/assets/158519921/c74f2c28-6fd8-4d3e-b3ed-7e16d14d1364">
+<img width="383" alt="reset password" src="https://i.imgur.com/FDbTuQm.png">
 
 
 <p><strong>.</strong></p>
@@ -94,109 +89,49 @@
 
 <p><strong>Set a temporary password for Sarah that complies with the company's password policy.</strong></p>
 
-<img width="383" alt="enable acc" src="https://github.com/kirkgacias/ad-scenario-simulation/assets/158519921/85e43120-0d23-4cb8-a8e2-6e64005a7303">
+<img width="383" alt="enable acc" src="https://i.imgur.com/rq7rkqi.png">
 
-<p><strong>NOTE: Make sure to click the highlighted boxes to ensure the user’s account is unlocked and enable them to set their own password. </strong></p>
+<p><strong>NOTE: Make sure to click the highlighted boxes to ensure the user’s account is unlocked and enable them to set their own password. The final product should result in this prompt.</strong></p>
+
+<img width="383" alt="enable acc" src="https://i.imgur.com/j1WqIb8.png">
 
 - Communicate the temporary password to Sarah through a secure channel and instruct her to change it immediately upon login.
 - Provide guidance on how to change the password using the company's self-service password reset tool if available.
 - Document the date and time of account creation for auditing purposes.
 
-<h4>Considerations:</h4>
-
-- Ensure that the chosen temporary password is strong and complies with the company's password policy.
-- Remind Sarah to update the password on any additional devices or applications where the old password was saved.
-
 <p><strong>.</strong></p>
 <p><strong>.</strong></p>
 
-<h3>&#9314; Group Membership Update </h3>
+<h3>3) Group Membership Update </h3>
 
 <h4>Background:</h4>
 
-<p>Emma Rodriguez, a systems analyst, has recently been promoted to a managerial role within the IT department. As part of her new responsibilities, Emma now requires access to specific network resources and project folders. The IT help desk needs to update Emma's group memberships in Active Directory accordingly.</p>
+<p>Jennifer Doe, an assistant manager, has recently been promoted to a managerial role within the IT department. As part of her new responsibilities, Jennifer now requires access to specific network resources and project folders. The IT help desk needs to update Jennifer's group memberships in Active Directory accordingly.</p>
 
-<p><strong>Locate Emma's user account and review her current group memberships.</strong></p>
+<p><strong>Locate Jennifer's user account and review her current group memberships.</strong></p>
 
-<img width="304" alt="Emma " src="https://github.com/kirkgacias/ad-scenario-simulation/assets/158519921/e0f15108-dcdb-477d-8de4-5f3747e5ea07">
-
-<p><strong>.</strong></p>
-<p><strong>.</strong></p>
-<p><strong>.</strong></p>
-
-<p><strong>Remove Emma from the "Systems Analysts" group and add her to the "IT Managers" group.</strong></p>
-
-<img width="303" alt="IT managers" src="https://github.com/kirkgacias/ad-scenario-simulation/assets/158519921/5120932a-c9de-45d9-9419-383bf839bbc4">
+<img width="304" alt="Jennifer " src="https://i.imgur.com/Fd3ke9y.png">
 
 <p><strong>.</strong></p>
 <p><strong>.</strong></p>
 
+<p><strong>Remove Jennifer from the "Assistant Manager" group and add her to the "IT Managers" group.</strong></p>
 
-<p><strong>Confirm that Emma now has the necessary access rights to project folders and relevant network resources.</strong></p>
+<img width="303" alt="IT managers" src="https://i.imgur.com/DEpyXxg.png">
 
-<img width="600" alt="image" src="https://github.com/kirkgacias/ad-scenario-simulation/assets/158519921/aadea113-c15b-4135-93d8-8b4ebf48de04">
+<p><strong>.</strong></p>
+<p><strong>.</strong></p>
+
+<p><strong>Confirm that Jennifer now has the necessary access rights to project folders and relevant network resources.</strong></p>
+
+<img width="600" alt="image" src="https://i.imgur.com/JBz6EY5.png">
 
 
 - Communicate the group membership update to Emma, along with any additional instructions or changes in access.
 - Document the whole process
 
 
-<h4>Considerations:</h4>
-
-- Ensure that Emma's new group memberships align with her managerial responsibilities.
-- Communicate the changes to other relevant parties, such as the IT security team, to maintain awareness.
-- Verify that Emma's access permissions are correctly configured after the group membership update.
-
-<h3>&#9315; Account Deactivation </h3>
-
-<h4>Background:</h4>
-
-<p>Mark Johnson, a network administrator, has recently resigned from the company. The IT help desk needs to deactivate Mark's user account in Active Directory to prevent unauthorized access and ensure the security of company resources.</p>
-
-<p><strong>Locate Mark's user account and initiate the account deactivation process.</strong></p>
-
-<img width="421" alt="makr" src="https://github.com/kirkgacias/ad-scenario-simulation/assets/158519921/0a51e96b-9dce-4bf6-a22f-92943f6e8a20">
-
-<p><strong>.</strong></p>
-<p><strong>.</strong></p>
-
-
-<p><strong>Disable Mark's account to prevent further logins while retaining the account details for reference.</strong></p>
-
-<img width="470" alt="disable" src="https://github.com/kirkgacias/ad-scenario-simulation/assets/158519921/da07b6af-1ba3-467a-b0a0-8109afc37bfb">
-
-<p><strong>.</strong></p>
-<p><strong>.</strong></p>
-
-
-<p><strong>You may receive a confirmation dialog; click "Yes" to confirm the disabling of the user account.</strong></p>
-
-<img width="223" alt="disable 2" src="https://github.com/kirkgacias/ad-scenario-simulation/assets/158519921/5b5bdfe6-996d-4ff3-8201-4cd9549bdd46">
-
-<p><strong>.</strong></p>
-<p><strong>.</strong></p>
-<p><strong>.</strong></p>
-
-<p><strong>Remove Mark from all security groups to revoke his access to network resources.</strong></p>
-
-<img width="295" alt="remove mark" src="https://github.com/kirkgacias/ad-scenario-simulation/assets/158519921/1613e604-3e4c-462f-8c30-ea0dd7fed0bf">
-
-<br>
-<br>
-
-<p><strong> Confirm with other relevant departments (e.g., HR) that Mark's departure aligns with company policies and document the whole process.</strong></p>
-
-<h4>Considerations:</h4>
-
-- Ensure a smooth transition of Mark's responsibilities to other team members.
-
--  Communicate the account deactivation to other departments, such as HR and security, for coordinated efforts.
-
--  Retain Mark's user account details for historical records and potential future reference.
-   
--  Conduct a review of Mark's access rights to identify and update any shared resources associated with his account.
-
-<h3>&#9316; Organizational Unit (OU) Management </h3>
+<h3>4) Organizational Unit (OU) Management </h3>
 
 <h4>Background:</h4>
 
@@ -205,26 +140,24 @@
 
 <p><strong>Create a new Organizational Unit named "International Sales" within the Sales department's organizational structure.</strong></p>
 
-<img width="323" alt="International Sales" src="https://github.com/kirkgacias/ad-scenario-simulation/assets/158519921/19db8909-74bf-4e02-8b5d-353bce7818ee">
+<img width="323" alt="International Sales" src="https://i.imgur.com/Md3Kjnh.png">
 
 <p><strong>.</strong></p>
 <p><strong>.</strong></p>
-<p><strong>.</strong></p>
 
-<p><strong>Move the user accounts of team members, such as Alex Turner and Maria Sanchez, to the newly created OU.</strong></p>
+<p><strong>Move the user accounts of team members, such as Thomas Anderson and xuvev.god, to the newly created OU.</strong></p>
 
-<img width="307" alt="Alex Turner to IS " src="https://github.com/kirkgacias/ad-scenario-simulation/assets/158519921/ff044b9d-17ee-4b8d-8b40-0f55dff95070">
+<img width="307" alt="Alex Turner to IS " src="https://i.imgur.com/RMttcW8.png">
 
-<img width="305" alt="Maria to IS" src="https://github.com/kirkgacias/ad-scenario-simulation/assets/158519921/641b24cb-156c-4a32-8edd-bc9041ca3741">
+<img width="305" alt="Maria to IS" src="https://i.imgur.com/H95pG2u.png">
 
-<p><strong>.</strong></p>
 <p><strong>.</strong></p>
 <p><strong>.</strong></p>
 
 <p><strong> Verify that the users now appear under the "International Sales" OU in Active Directory.
 </strong></p>
 
-<img width="296" alt="Verify" src="https://github.com/kirkgacias/ad-scenario-simulation/assets/158519921/8c4884d1-e16a-48a6-a492-6cc12f6e91e8">
+<img width="296" alt="Verify" src="https://i.imgur.com/3X3ae5K.png">
 
 <br>
 <br>
